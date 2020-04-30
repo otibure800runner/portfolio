@@ -149,11 +149,13 @@ TOPへボタンここまで
 フッター
 */
 footer{
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  height: 100px;
 }
 .footer-menu{
-  margin-left: -50px;
+  position: absolute;
+  left: -20px;
+  bottom: 0;
 }
 .footer-menu li{
   margin-left: 20px;
@@ -161,21 +163,23 @@ footer{
   text-shadow: #999 10px 10px 5px;
 }
 .copy{
-  margin-right: 20px;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
   color: #fff;
   text-shadow: #999 5px 5px 5px;
 }
 @media (max-width:767px) {
   footer{
-    position: relative;
+    height: 50px;
   }
   .footer-menu{
+    left: -40px;
+  }
+  .footer-menu li{
     font-size: 8px;
   }
   .copy{
-    position: absolute;
-    right: 0;
-    bottom: 0;
     font-size: 6px;
   }
 }
