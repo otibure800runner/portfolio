@@ -74,6 +74,7 @@ body *{
 }
 .header-menu li{
   margin-right: 20px;
+  font-size: 30px;
 }
 .menu a{
   text-decoration: none;
@@ -109,6 +110,7 @@ body *{
   }
   .header-menu li{
     margin-right: 10px;
+    font-size: 15px;
   }
   .header-logo img{
     width: 70px;
@@ -155,10 +157,13 @@ footer{
 }
 .footer-menu li{
   margin-left: 20px;
+  font-size: 30px;
+  text-shadow: #999 10px 10px 5px;
 }
 .copy{
   margin-right: 20px;
   color: #fff;
+  text-shadow: #999 5px 5px 5px;
 }
 @media (max-width:767px) {
   footer{
@@ -260,6 +265,7 @@ about.html
 .intro h2{
   color: #fff;
   text-shadow: #999 10px 10px 5px;
+  font-size: 40px;
 }
 .intro .text{
   width: 250px;
@@ -297,6 +303,7 @@ illust.html
   margin-left: 30px;
   color: #fff;
   text-shadow: #999 10px 10px 5px;
+  font-size: 40px;
 }
 .illust-wrap .image{
   text-align: center;
@@ -333,6 +340,7 @@ web-design.html
   margin-left: 30px;
   color: #fff;
   text-shadow: #999 10px 10px 5px;
+  font-size: 40px;
 }
 .web-wrap .image{
   text-align: center;
@@ -365,7 +373,12 @@ web-design.htmlここまで
 contact.html
 */
 .contact-wrap{
-  margin-left: 30px;
+  text-align: center;
+}
+.contact-wrap h2{
+  color: #fff;
+  text-shadow: #999 10px 10px 5px;
+  font-size: 40px;
 }
 .form span{
   font-size: 10px;
