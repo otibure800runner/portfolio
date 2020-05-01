@@ -98,8 +98,11 @@ body *{
   top: 20px;
   right: 20px;
 }
-.menu .color{
+.header-menu .color{
   color: #ccc;
+}
+.footer-menu .color{
+  color: #aaa;
 }
 @media (max-width:767px) {
   .header-menu{
